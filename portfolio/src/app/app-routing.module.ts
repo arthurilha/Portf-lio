@@ -2,11 +2,11 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-{
-  path: '',
-  loadChildren: ()=>import('./pages/pages/pages-routing.module').then(p=>p.PagesRoutingModule)
-}
-];
+  {
+    path: '',
+    loadChildren: ()=> import('./pages/pages-routing.module').then(p => p.PagesRoutingModule)
+  }
+  ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

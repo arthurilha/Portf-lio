@@ -1,0 +1,43 @@
+.row{
+  height: 100vh;
+  background-color:rgba(10, 15, 55, 1);
+  .title{
+    height: 20%;
+
+    h1{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 85px;
+      line-height: 131px;
+      color: #FFFFFF;
+      margin-left: 70px;
+    }
+  }
+  .text{
+    height: 50%;
+    .one{
+      width: 647px;
+      height: 318px;
+      background: #151C52;
+
+      border-radius: 20px;
+    }
+  }
+  .detalhes{
+    height: 30%;
+    .two{
+      height: 100px;
+      width: 1400px;
+      background: #151C52;
+      border-radius: 20px;
+      left: -30px;
+      h3{
+        color: #FFFFFF;
+      }
+      .icone{
+        width: 37.4px;
+        height: 19.52px;
+      }
+    }
+  }
+}
